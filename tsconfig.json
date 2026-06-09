@@ -1,0 +1,18 @@
+{
+  "extends": "react-scripts/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@features/*": ["src/features/*"],
+      "@components/*": ["src/components/*"],
+      "@schemas/*": ["src/schemas/*"],
+      "@utils/*": ["src/utils/*"],
+      "@constants/*": ["src/constants/*"],
+      "@hooks/*": ["src/hooks/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
+}

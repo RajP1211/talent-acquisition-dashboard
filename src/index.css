@@ -1,0 +1,39 @@
+:root {
+  color-scheme: light;
+  font-family: 'Inter', 'Roboto', 'Segoe UI', sans-serif;
+  font-size: 16px;
+  background-color: #f2f5fb;
+}
+
+html, body, #root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top left, rgba(106, 132, 255, 0.18), transparent 36%),
+    radial-gradient(circle at bottom right, rgba(97, 219, 255, 0.18), transparent 28%),
+    #eef3fb;
+  color: #0f172a;
+  font-family: 'Inter', 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+input::-webkit-autofill {
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.Toastify__toast--success {
+  border-left: 4px solid #2563eb;
+}
+
+.Toastify__toast--error {
+  border-left: 4px solid #dc2626;
+}
