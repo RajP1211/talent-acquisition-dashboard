@@ -84,7 +84,7 @@ export default function Step1Personal() {
           }
         }}
       >
-        Add your full contact details so the hiring
+        Add  all details contact details so the hiring
         team can reach you.
       </Typography>
 
