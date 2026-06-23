@@ -84,8 +84,7 @@ export default function Step1Personal() {
           }
         }}
       >
-        Add  all details contact details so the hiring
-        team can reach you.
+       
       </Typography>
 
       <Box
@@ -104,7 +103,7 @@ export default function Step1Personal() {
             <TextField
               fullWidth
               label="Full Name"
-              placeholder="Enter your full name"
+              placeholder="Enter full name"
               {...register('fullName')}
               error={Boolean(errors.fullName)}
               helperText={errors.fullName?.message}
